@@ -1,5 +1,5 @@
 {% set name = "python-statemachine" %}
-{% set version = "2.3.4" %}
+{% set version = "2.3.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python_statemachine-{{ version }}.tar.gz
-  sha256: f5a061a5f0abef0977a2679bf7aefecbe4d87a57ac5839e97c8f30b2d6a9f3ae
+  sha256: 8cafd3685defe1f954c3c7db7058ba99078eba25e24ecd68e4b60501885ffa53
 
 build:
   noarch: python
