@@ -1,3 +1,4 @@
+{% set python_min = python_min|default("3.9") %}
 {% set name = "python-statemachine" %}
 {% set version = "2.4.0" %}
 
