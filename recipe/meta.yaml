@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python_statemachine-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/python_statemachine-{{ version }}.tar.gz
   sha256: 1f0cce643c9d17b130dbeb369c293c97d6d0dc25931d45bc8ff667cd7cd67747
 
 build:
