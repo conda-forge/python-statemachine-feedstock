@@ -29,13 +29,10 @@ tests:
   - python:
       imports:
         - statemachine
-      python_version: ${{ python_min }}.*
-  - requirements:
-      run:
-        - python ${{ python_min }}.*
-        - pip
-    script:
-      - pip check
+      pip_check: true
+      python_version:
+        - ${{ python_min }}.*
+        - 3.*
 
 about:
   summary: Python Finite State Machines made easy.
