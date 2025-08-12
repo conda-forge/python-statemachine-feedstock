@@ -11,7 +11,7 @@ Summary: Python Finite State Machines made easy.
 
 Development: https://github.com/fgmacedo/python-statemachine
 
-Documentation: https://python-statemachine.readthedocs.io
+Documentation: https://python-statemachine.readthedocs.io/
 
 Current build status
 ====================
