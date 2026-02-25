@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: python-statemachine
-  version: "2.6.0"
+  version: "3.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/python_statemachine-${{ version }}.tar.gz
-  sha256: adda2e7327ed7ecc96069c49e830fcc8b11a5f9d899ab16742317167b3d7997d
+  sha256: 91523f9ead73c1d6fecc975d5c6e0bfe363fbf537c5f0bf309bcd0f94f9441b2
 
 build:
   number: 0
